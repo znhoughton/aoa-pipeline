@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+message: "If you use this code or these results, please cite the paper below."
+title: >-
+  Reading Acquisition Order out of BabyLM Representations: Child-Scale Training
+  Produces Developmentally Aligned Semantic Spaces
+abstract: >-
+  A frozen linear read-out is fit to Wordbank CDI age-of-acquisition from the layer-wise
+  word representations of 18 checkpoints, spanning BabyLM child-scale models and
+  full-data controls, to test whether developmentally plausible training data yields
+  representations better aligned with children's vocabulary learning order.
+authors:
+  - family-names: Ding
+    given-names: Chenyi
+  - family-names: Houghton
+    given-names: Zachary Nicholas
+  - family-names: Jasbi
+    given-names: Masoud
+repository-code: "https://github.com/znhoughton/aoa-pipeline"
+keywords:
+  - BabyLM
+  - age of acquisition
+  - language development
+  - CHILDES
+  - Wordbank
+  - language models
+preferred-citation:
+  # TODO: replace with the official ACL Anthology metadata once the proceedings are
+  # published (anthology ID, page numbers, publisher, co-located conference).
+  type: conference-paper
+  title: >-
+    Reading Acquisition Order out of BabyLM Representations: Child-Scale Training
+    Produces Developmentally Aligned Semantic Spaces
+  authors:
+    - family-names: Ding
+      given-names: Chenyi
+    - family-names: Houghton
+      given-names: Zachary Nicholas
+    - family-names: Jasbi
+      given-names: Masoud
+  collection-title: "Proceedings of the BabyLM Challenge"
+  year: 2026

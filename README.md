@@ -1,4 +1,10 @@
-# Multi-model AoA read-out
+# Reading Acquisition Order out of BabyLM Representations
+
+### Child-Scale Training Produces Developmentally Aligned Semantic Spaces
+
+Chenyi Ding, Zachary Nicholas Houghton, Masoud Jasbi
+
+Code, data and results for the paper.
 
 How much of children's vocabulary learning order can you recover from a frozen language
 model's representations, and does training on developmentally plausible data help?
@@ -152,5 +158,24 @@ The ELC-BERT, LTG-BERT and GPT-BERT checkpoints ship custom modelling code and l
 
 ## Citing
 
-The data files are redistributions of published resources with their own terms; see
-[data/README.md](data/README.md) and cite those papers directly.
+If you use this code or these results, please cite the paper:
+
+> Ding, C., Houghton, Z. N., & Jasbi, M. (2026). Reading Acquisition Order out of
+> BabyLM Representations: Child-Scale Training Produces Developmentally Aligned
+> Semantic Spaces. *Proceedings of the BabyLM Challenge*.
+
+```bibtex
+@inproceedings{ding-etal-2026-reading,
+    title     = "Reading Acquisition Order out of {B}aby{LM} Representations: Child-Scale Training Produces Developmentally Aligned Semantic Spaces",
+    author    = "Ding, Chenyi and Houghton, Zachary Nicholas and Jasbi, Masoud",
+    booktitle = "Proceedings of the BabyLM Challenge",
+    year      = "2026"
+}
+```
+
+This entry is provisional. Replace it with the official BibTeX from the ACL Anthology
+once the proceedings are published, and update `CITATION.cff` to match.
+
+The data files in `data/` are redistributions of published resources with their own
+terms; see [data/README.md](data/README.md) and cite those papers directly rather than
+citing this repo for them.
