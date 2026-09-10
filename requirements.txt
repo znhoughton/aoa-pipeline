@@ -1,0 +1,12 @@
+# Pinned to the version the pipeline was run with. Step 1 of the notebook
+# checks for transformers 4.x and installs 4.51.3 if it finds something else,
+# because several of the BabyLM checkpoints use trust_remote_code=True and
+# their custom modelling files do not load under transformers 5.x.
+transformers==4.51.3
+
+torch>=2.0
+numpy>=1.24
+pandas>=2.0
+scikit-learn>=1.3
+scipy>=1.10
+matplotlib>=3.7

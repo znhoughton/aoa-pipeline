@@ -1,0 +1,11 @@
+# Keep data, results and the notebook byte-identical across Windows / Linux / Colab
+# checkouts, so a rerun on one platform doesn't diff against the other.
+*.csv   text eol=lf
+*.tsv   text eol=lf
+*.txt   text eol=lf
+*.ipynb text eol=lf
+*.md    text eol=lf
+*.py    text eol=lf
+
+*.npz   binary
+*.png   binary
