@@ -24,8 +24,8 @@ keywords:
   - Wordbank
   - language models
 preferred-citation:
-  # TODO: replace with the official ACL Anthology metadata once the proceedings are
-  # published (anthology ID, page numbers, publisher, co-located conference).
+  # TODO: add the ACL Anthology ID, DOI and page numbers once the proceedings are
+  # posted. Venue details below are confirmed against babylm.github.io.
   type: conference-paper
   title: >-
     Reading Acquisition Order out of BabyLM Representations: Child-Scale Training
@@ -37,5 +37,14 @@ preferred-citation:
       given-names: Zachary Nicholas
     - family-names: Jasbi
       given-names: Masoud
-  collection-title: "Proceedings of the BabyLM Challenge"
+  collection-title: "Proceedings of the 2nd BabyLM Workshop"
+  conference:
+    name: "The 2nd BabyLM Workshop, co-located with EMNLP 2026"
+    city: Budapest
+    country: HU
+    date-start: "2026-10-24"
+    date-end: "2026-10-29"
+  publisher:
+    name: "Association for Computational Linguistics"
   year: 2026
+  month: 10

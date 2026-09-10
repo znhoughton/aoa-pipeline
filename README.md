@@ -162,19 +162,23 @@ If you use this code or these results, please cite the paper:
 
 > Ding, C., Houghton, Z. N., & Jasbi, M. (2026). Reading Acquisition Order out of
 > BabyLM Representations: Child-Scale Training Produces Developmentally Aligned
-> Semantic Spaces. *Proceedings of the BabyLM Challenge*.
+> Semantic Spaces. *Proceedings of the 2nd BabyLM Workshop*, Budapest, Hungary.
 
 ```bibtex
 @inproceedings{ding-etal-2026-reading,
     title     = "Reading Acquisition Order out of {B}aby{LM} Representations: Child-Scale Training Produces Developmentally Aligned Semantic Spaces",
     author    = "Ding, Chenyi and Houghton, Zachary Nicholas and Jasbi, Masoud",
-    booktitle = "Proceedings of the BabyLM Challenge",
-    year      = "2026"
+    booktitle = "Proceedings of the 2nd BabyLM Workshop",
+    month     = oct,
+    year      = "2026",
+    address   = "Budapest, Hungary",
+    publisher = "Association for Computational Linguistics"
 }
 ```
 
-This entry is provisional. Replace it with the official BibTeX from the ACL Anthology
-once the proceedings are published, and update `CITATION.cff` to match.
+The 2nd BabyLM Workshop is co-located with EMNLP 2026 (Budapest, October 24–29, 2026).
+This entry is provisional: replace it with the official BibTeX from the ACL Anthology
+once the proceedings are posted, and update `CITATION.cff` to match.
 
 The data files in `data/` are redistributions of published resources with their own
 terms; see [data/README.md](data/README.md) and cite those papers directly rather than
