@@ -6,6 +6,11 @@ Chenyi Ding, Zachary Nicholas Houghton, Masoud Jasbi
 
 Code, data and results for the paper.
 
+**Contributions.** Chenyi Ding designed and wrote the analysis pipeline (representation
+extraction, ridge read-out, semantic-structure measures and robustness checks). Zachary
+Houghton organized this repository, packaged the data and wrote the documentation. Masoud
+Jasbi supervised the project.
+
 How much of children's vocabulary learning order can you recover from a frozen language
 model's representations, and does training on developmentally plausible data help?
 
